@@ -14,19 +14,19 @@ import {
 
 const items = [
   {
-    src: require("assets/img/bg1.jpg").default,
-    altText: "Nature, United States",
-    caption: "Nature, United States",
+    src: require("assets/img/raficar1.jpg").default,
+    altText: "Atlanta,GA , United States",
+    caption: "C6 Z06",
   },
   {
-    src: require("assets/img/bg3.jpg").default,
-    altText: "Somewhere Beyond, United States",
-    caption: "Somewhere Beyond, United States",
+    src: require("assets/img/dancar1.jpg").default,
+    altText: "Atlanta,GA , United States",
+    caption: "370Z",
   },
   {
-    src: require("assets/img/bg4.jpg").default,
-    altText: "Yellowstone National Park, United States",
-    caption: "Yellowstone National Park, United States",
+    src: require("assets/img/cprice2.jpg").default,
+    altText: "Atlanta,GA , United States",
+    caption: "370 Z Nismo",
   },
 ];
 
@@ -57,7 +57,7 @@ function CarouselSection() {
     <>
       <div className="section" id="carousel">
         <Container>
-          <div className="title">
+          <div className="title" style={{textAlign:"center"}}>
             <h4>Carousel</h4>
           </div>
           <Row className="justify-content-center">

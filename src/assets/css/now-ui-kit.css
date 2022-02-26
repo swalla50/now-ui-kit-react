@@ -3353,7 +3353,7 @@ Created using IcoMoon - icomoon.io
   background-color: #f96332 !important; }
 
 .bg-info {
-  background-color: #2CA8FF !important; }
+  background-color: #586F39 !important; }
 
 .bg-success {
   background-color: #18ce0f !important; }
@@ -3957,7 +3957,9 @@ img {
     margin-top: -60px;
     padding: 0 15px;
     width: 100%;
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.5);
+  }
+    
 
 .landing-page .header {
   height: 100vh;

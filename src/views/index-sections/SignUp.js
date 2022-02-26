@@ -29,7 +29,7 @@ function SignUp() {
         className="section section-signup"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/bg11.jpg").default + ")",
+            "url(" + require("assets/img/newfadingrace.png").default + ")",
           backgroundSize: "cover",
           backgroundPosition: "top center",
           minHeight: "700px",
@@ -37,7 +37,7 @@ function SignUp() {
       >
         <Container>
           <Row>
-            <Card className="card-signup" data-background-color="blue">
+            <Card className="card-signup" style={{background: "#586F39", borderRadius:"30px"}}>
               <Form action="" className="form" method="">
                 <CardHeader className="text-center">
                   <CardTitle className="title-up" tag="h3">
@@ -138,18 +138,6 @@ function SignUp() {
               </Form>
             </Card>
           </Row>
-          <div className="col text-center">
-            <Button
-              className="btn-round btn-white"
-              color="default"
-              to="/login-page"
-              outline
-              size="lg"
-              tag={Link}
-            >
-              View Login Page
-            </Button>
-          </div>
         </Container>
       </div>
     </>

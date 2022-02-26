@@ -29,7 +29,7 @@ function IndexHeader() {
           className="page-header-image"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/header.jpg").default + ")",
+              "url(" + require("assets/img/jmmcover.jpg").default + ")",
           }}
           ref={pageHeader}
         ></div>
@@ -38,32 +38,21 @@ function IndexHeader() {
             <img
               alt="..."
               className="n-logo"
-              src={require("assets/img/now-logo.png").default}
+              src={require("assets/img/jmmtrans.png").default}
             ></img>
-            <h1 className="h1-seo">Now UI Kit.</h1>
-            <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+            <h1 className="h1-seo">JM Motorsports.</h1>
+            <h3>Automotive Repairs and Performance Builds.</h3>
           </div>
-          <h6 className="category category-absolute">
+          <h6 className="category category-absolute" style={{background: "#000000bf", borderRadius:"30px"}}>
             Designed by{" "}
-            <a href="http://invisionapp.com/?ref=creativetim" target="_blank">
+            <a href="https://altnetix.com" target="_blank">
               <img
                 alt="..."
                 className="invision-logo"
-                src={require("assets/img/invision-white-slim.png").default}
+                src={require("assets/img/altlogo.png").default}
               ></img>
             </a>
-            . Coded by{" "}
-            <a
-              href="https://www.creative-tim.com?ref=nukr-index-header"
-              target="_blank"
-            >
-              <img
-                alt="..."
-                className="creative-tim-logo"
-                src={require("assets/img/creative-tim-white-slim2.png").default}
-              ></img>
-            </a>
-            .
+            ltnetix&reg;
           </h6>
         </Container>
       </div>
