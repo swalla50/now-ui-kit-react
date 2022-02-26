@@ -43,8 +43,7 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          <Tabs />
-
+          <Images />
           <Carousel />
 
           <SignUp />
