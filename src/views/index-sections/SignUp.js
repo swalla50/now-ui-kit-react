@@ -123,6 +123,21 @@ function SignUp() {
                       onBlur={() => setEmailFocus(false)}
                     ></Input>
                   </InputGroup>
+                  <InputGroup
+                    className={
+                      "signup-text-area"
+                    }
+                  >
+                    <InputGroupAddon addonType="prepend">
+                    </InputGroupAddon>
+                    <Input
+                      placeholder="Please enter your message here."
+                      type='textarea'
+                      onFocus={() => setEmailFocus(true)}
+                      onBlur={() => setEmailFocus(false)}
+                    ></Input>
+                  </InputGroup>
+                  
                 </CardBody>
                 <CardFooter className="text-center">
                   <Button
@@ -132,7 +147,7 @@ function SignUp() {
                     onClick={(e) => e.preventDefault()}
                     size="lg"
                   >
-                    Get Started
+                    Submit
                   </Button>
                 </CardFooter>
               </Form>
