@@ -17,7 +17,7 @@ $light-black:                #444    !default;
 
 $black-bg:                   rgba(30,30,30,.97) !default;
 
-$black-color:                #2c2c2c !default;
+$black-color:                #212529 !default;
 $black-hr:                   #444444 !default;
 
 $light-gray:                 #E3E3E3 !default;
@@ -72,7 +72,7 @@ $danger-color-opacity:       rgba(255, 54, 54, .3) !default;
 $danger-color-alert:         rgba(255, 54, 54, .8) !default;
 
 /*     brand Colors              */
-$brand-primary:              $primary-color !default;
+$brand-primary:              rgb(88, 111, 57) !default;
 $brand-info:                 $info-color !default;
 $brand-success:              $success-color !default;
 $brand-warning:              $warning-color !default;

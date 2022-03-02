@@ -58,7 +58,7 @@ function CarouselSection() {
       <div className="section" id="carousel">
         <Container>
           <div className="title" style={{textAlign:"center"}}>
-            <h4>Carousel</h4>
+            <h4>FEATURED VEHICLES</h4>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">

@@ -14,14 +14,16 @@ function DarkFooter() {
               <a
                 href="https://www.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
+                style={{color: "white"}}
               >
-                Creative Tim
+                JM Motorsports
               </a>
             </li>
             <li>
               <a
                 href="http://presentation.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
+                style={{color: "white"}}
               >
                 About Us
               </a>
@@ -30,26 +32,29 @@ function DarkFooter() {
               <a
                 href="http://blog.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
+                style={{color: "white"}}
               >
                 Blog
               </a>
             </li>
           </ul>
         </nav>
-        <div className="copyright" id="copyright">
+        <div className="copyright" id="copyright" style={{color: "white"}}>
           © {new Date().getFullYear()}, Designed by{" "}
           <a
             href="https://www.invisionapp.com?ref=nukr-dark-footer"
             target="_blank"
+            style={{color: "white"}}
           >
-            Invision
+            Altnetix
           </a>
           . Coded by{" "}
           <a
             href="https://www.creative-tim.com?ref=nukr-dark-footer"
             target="_blank"
+            style={{color: "white"}}
           >
-            Creative Tim
+            Altnetix
           </a>
           .
         </div>

@@ -28,8 +28,7 @@ function SignUp() {
       <div
         className="section section-signup"
         style={{
-          backgroundImage:
-            "url(" + require("assets/img/newfadingrace.png").default + ")",
+          
           backgroundSize: "cover",
           backgroundPosition: "top center",
           minHeight: "700px",
@@ -41,7 +40,7 @@ function SignUp() {
               <Form action="" className="form" method="">
                 <CardHeader className="text-center">
                   <CardTitle className="title-up" tag="h3">
-                    Sign Up
+                    Contact Us
                   </CardTitle>
                   <div className="social-line">
                     <Button
