@@ -44,6 +44,7 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <Images />
+
           <Carousel />
 
           <SignUp />

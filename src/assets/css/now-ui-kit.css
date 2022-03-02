@@ -3247,7 +3247,7 @@ Created using IcoMoon - icomoon.io
   .navbar a {
     vertical-align: middle; }
     .navbar a:not(.btn):not(.dropdown-item) {
-      color: #FFFFFF; }
+      color: white; }
   .navbar p {
     display: inline-block;
     margin: 0;

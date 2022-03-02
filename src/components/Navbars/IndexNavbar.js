@@ -57,6 +57,7 @@ function IndexNavbar() {
               href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
               target="_blank"
               id="navbar-brand"
+              style={{color: "white"}}
             >
               JM Motorsports
             </NavbarBrand>
@@ -131,7 +132,7 @@ function IndexNavbar() {
                   target="_blank"
                 >
                   <i className="now-ui-icons arrows-1_share-66 mr-1"></i>
-                  <p>Upgrade to PRO</p>
+                  <p>Contact Us</p>
                 </Button>
                 <UncontrolledTooltip target="#upgrade-to-pro">
                   Cooming soon!
